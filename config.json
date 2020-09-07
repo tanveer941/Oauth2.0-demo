@@ -1,0 +1,9 @@
+{
+  "client_id": "MY_CLIENT_ID",
+  "client_secret": "MY_CLIENT_SECRET",
+  "grant_type_auth_code": "authorization_code",
+  "redirect_uri": "http://localhost:5001/callback",
+  "token_url": "https://MY_TOKEN_URL/oauth2/v2.0/token",
+  "grant_type_refresh": "refresh_token",
+  "authorize_url": "https://MY_AUTH_URL/oauth2/v2.0/authorize"
+}
