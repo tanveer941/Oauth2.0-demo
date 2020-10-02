@@ -1,7 +1,7 @@
 # Oauth2.0-demo
 To demonstrate OIDC authentication with authorization code grant type
 API authentication using the authorization grant type is the most secure type of authentication as it involves a 
-two-way communication. 
+two-way communication.
 - One is to the authorization endpoint to generate auth code where user enters his credentials
 - Second is to the authorization server where the token endpoint is used to generate tokens
 - This ensures that it is almost impossible for external forces to intercept the APIs 
