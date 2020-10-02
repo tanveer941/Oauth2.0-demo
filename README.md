@@ -22,4 +22,13 @@ will be further used by token endpoints to generate the tokens.
 To solve this issue, refresh tokens are generated which eliminates the step to generate authorization code
 by calling the authorization endpoint. Instead the token endpoint is called with `grant_type` as `refresh_token`
 
-The refresh tokens can be generated over regular intervals by only using the token endpoints. 
+The refresh tokens can be generated over regular intervals by only using the token endpoints.
+
+## Authorization code
+![Access token](sample_images/authCode.PNG?raw=true "Authorization code") 
+
+## Access and ID token
+![Access token](sample_images/access_ID_token.PNG?raw=true "Access token") 
+
+## Refresh token
+![Refresh token](sample_images/refreshToken.PNG?raw=true "Refresh token") 
